@@ -123,3 +123,4 @@ ChangeLog
 AUTHORS
 .pytest_cache/
 data/
+.idea/
