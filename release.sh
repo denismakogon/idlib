@@ -37,7 +37,7 @@ new_version=$(docker run --rm marcelocorreia/semver semver -c -i patch ${current
 echo "Current version: $current_version"
 echo "New version: $new_version"
 
-echo "VERSION = '${new_version}'" > ${artifact}/version.py
+echo "VERSION = \"${new_version}"\" > ${artifact}/version.py
 
 tag="$new_version"
 git add -u
