@@ -3,7 +3,7 @@
 ## Usage
 
 ```shell
-pip install id_lib
+pip install id-lib
 ```
 
 ```python
