@@ -28,5 +28,8 @@ def test_hardware_address_in_id():
         .replace(":", "")
         .upper()
     )
+    parts = hw_addr.split("\n")
+    if len(parts) > 1:
+        hw_addr = parts[0]
 
     assert hw_addr in new_id
