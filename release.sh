@@ -17,7 +17,7 @@
 
 set -ex
 
-artifact="idlib"
+artifact="id_lib"
 # ensure working dir is clean
 git status
 if [[ -z $(git status -s) ]]
